@@ -1,7 +1,8 @@
 # Создаем список от 1 до 20 и выводим
-data = [a for a in range(1, 21)]
+import random
+data=[random.randint(1,100) for i in range(20)]
 print(data)
-# Создаем список с четными числами из списка data с помощью лямбды и filter 
+# Создаем список с четными числами из списка data с помощью лямбды и filter
 data_even = list(filter(lambda x: x%2==0, data))
 print(data_even)
 # Создаем список с числами+10 из списка data с помощью лямбды и map
