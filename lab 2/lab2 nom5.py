@@ -1,6 +1,6 @@
 # Создаем список от 1 до 20 и выводим
 import random
-data=[random.randint(1,100) for i in range(20)]
+data=[random.randint(1,101) for i in range(20)]
 print(data)
 # Создаем список с четными числами из списка data с помощью лямбды и filter
 data_even = list(filter(lambda x: x%2==0, data))
